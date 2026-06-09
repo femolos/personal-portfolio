@@ -47,8 +47,41 @@
 
             <section id="contact">
                 <h3>Contact</h3>
-                <p>My email is oluwafemiolosunde@gmail.com</p>
+                <form action="#" method="POST">
+                    <p>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
 
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="subject">Subject:</label><br>
+                        <select id="subject" name="subject">
+                        <option value="course">Acting Inquiry</option>
+                        <option value="research">Job Opportunity</option>
+                        <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="6" cols="40"
+                        placeholder="Write your message here" required></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Send Message</button>
+                        <button type="reset">Clear</button>
+                    </p>
+
+                </form>
+
+                <p>Or email me directly at <a href="mailto:oluwafemiolosunde@gmail.com">oluwafemiolosunde@gmail.com</a></p>
+                <br>
                 <a href="https://github.com/femolos" target="_blank">Github Profile</a>
                 <br>
                 <a href="https://www.linkedin.com/in/oluwafemio/" target="_blank">LinkedIn</a>
